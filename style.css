@@ -1,0 +1,60 @@
+html,body{
+    min-height: 1em;
+    margin: 0;
+}
+
+.section-center{
+    display: grid;
+    grid-template-columns: (20, 5%);
+    grid-template-rows: (20, 5%);
+}
+
+.gift-img{
+    grid-column: 1/20;
+    grid-row: 1/20;
+    margin: 0;
+    padding: 4%;
+}
+
+#plane{
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0; 
+    box-shadow: 10px 10px 20px 5px rgb(11, 11, 22);
+}
+
+.gift-info{
+    grid-column: 8/18;
+    grid-row: 2/18;
+    margin: 0;
+    padding: 4%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 5px rgb(11, 11, 22);
+}
+
+.deadline{
+    font-size: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    margin: 0;
+}
+
+.deadline-format{
+    height: 7em;
+    width: 10em;
+    margin: 2%;
+    padding: 0;
+    background-color: rgb(31, 26, 123);
+    text-shadow: 5px 5px 2px rgb(11, 11, 22);
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(67, 66, 82, .8);
+}
+
+
+
